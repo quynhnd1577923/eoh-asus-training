@@ -55,7 +55,7 @@ void timerEvent() {
 
 void setup() {
     serial.begin(devName, devBaud);
-    console.init(V0, V1, V2);
+    
 
     ERa.setAppLoop(false);
     ERa.setBoardID(boardID);
@@ -66,6 +66,7 @@ void setup() {
 void loop() {
     ERa.run();
     console.run();
+    ERa.virtualWrite(V0,9)
 }
 
 int main(int argc, char* argv[]) {
