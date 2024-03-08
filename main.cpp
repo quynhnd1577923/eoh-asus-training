@@ -30,7 +30,7 @@ static const char* user;
 static const char* pass;
 
 static int devBaud = 115200;
-static const char* devName = "/dev/serial/by-id/usb-Unexpected_Maker_TinyS3__ts3_-if00";
+static const char* devName = "/dev/serial/by-id/usb-1a86_USB2.0-Ser_-if00-port0";
 
 ERaSerialLinux serial;
 ERaConsole console(serial);
