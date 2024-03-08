@@ -66,6 +66,8 @@ void setup() {
 void loop() {
     ERa.run();
     console.run();
+  int sds=this->stream.read()
+  ERa.virtualWrite(V0, sds);
 }
 
 int main(int argc, char* argv[]) {
